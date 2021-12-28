@@ -1,0 +1,46 @@
+1- installed git on windows
+2-created an account on github username: youssef-hamada and i got an invitation.
+bitbucket username: youssef-hamada.
+3- invitation is accepted and upload a full name file ( youssef hamada ).
+	 git clone git@github.com:MahmoudElbasha/OS42.git
+	Cloning into 'OS42'...
+	remote: Enumerating objects: 11, done.
+	remote: Counting objects: 100% (11/11), done.
+	remote: Compressing objects: 100% (8/8), done.
+	remote: Total 11 (delta 2), reused 10 (delta 1), pack-reused 0
+	Receiving objects: 100% (11/11), done.
+	Resolving deltas: 100% (2/2), done.
+
+4- mkdir lab1
+   git init
+   touch file1.txt -> hi 1
+   touch file2.txt -> hello 1
+   touch file3.txt -> hello file3
+   git add file1.txt file2.txt file3.txt
+   git status 
+   	git status
+	On branch master
+
+	No commits yet
+	
+	Changes to be committed:
+  		(use "git rm --cached <file>..." to unstage)
+      			  new file:   file1.txt
+       			  new file:   file2.txt
+        		  new file:   file3.txt
+
+    git commit -m 'file1.txt file2.txt file3.txt'
+
+	[main (root-commit) 61b2e92] file1.txt file2.txt file3.txt
+ 	3 files changed, 3 insertions(+)
+ 		create mode 100644 file1.txt
+ 		create mode 100644 file2.txt
+		 create mode 100644 file3.txt
+
+   	
+    git status
+	On branch main
+	nothing to commit, working tree clean
+    	
+     git push origin main
+     
